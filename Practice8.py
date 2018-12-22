@@ -87,8 +87,8 @@ class DPS:
         self.level = level  # 4
         self.name = name
         self.health = 100 + ((level + 1) * 5)
-        self.defense = (level + 1) * 1
-        self.attack = (level + 1) * 12
+        self.defense = (level + 1) * 3
+        self.attack = (level + 1) * 10
         if orientation == "f":
             self.pos_pronoun = "her"
         elif orientation == "m":
